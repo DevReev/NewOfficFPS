@@ -1028,8 +1028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 100
-  fpsCam: {fileID: 963194227}
-  muzzleFlash: {fileID: 294764827}
+  fpsCam: {fileID: 0}
+  muzzleFlash: {fileID: 0}
 --- !u!1001 &206595148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1437,12 +1437,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4254068895072566, guid: a9a6af830b7d63749a8d69dc96895156,
     type: 3}
   m_PrefabInstance: {fileID: 386025556}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &294764827 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198234346748616026, guid: ad2ab49d0a2a17148bd51c93d977bdbc,
-    type: 3}
-  m_PrefabInstance: {fileID: 1462716358}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &297650965 stripped
 Transform:
@@ -4900,8 +4894,7 @@ MonoBehaviour:
   delay: 3
   radius: 7
   force: 700
-  explosionEffect: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
-    type: 3}
+  explosionEffect: {fileID: 0}
   hasExploded: 0
 --- !u!4 &1061398683 stripped
 Transform:
@@ -8843,7 +8836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endUI: {fileID: 1637633574}
-  dieY: -1
+  dieY: -2
 --- !u!1001 &1743789866
 PrefabInstance:
   m_ObjectHideFlags: 0
