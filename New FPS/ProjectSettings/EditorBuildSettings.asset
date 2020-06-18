@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FPS Custom/Menu.unity
-    guid: 6f726bc771e82446c9f54f46c01803b4
+    path: Assets/Scenes/Menu 1.unity
+    guid: ffd2cf9b9e295442e863a2066c1a17a3
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: 184b26d3d8aaf4b73ac6e936a9cd5f98
   - enabled: 1
-    path: Assets/FPS Custom/Credits.unity
+    path: Assets/Scenes/Credits.unity
     guid: 170e09b93a9134fec8cae58dfcf98b74
   m_configObjects: {}
