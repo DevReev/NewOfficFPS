@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController controller;
+    
 
     public float speed = 12f;
     public float gravity = 9.81f;
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
+
 
     // Update is called once per frame
     void Update()
@@ -47,11 +49,14 @@ public class PlayerMovement : MonoBehaviour
             speed = 30f;
         }
 
-        // Crouch
-        //if (Input.GetKeyDown("c"))
-       // {
-       //     velocity.y = -Mathf.Sqrt(jumpHeight * -2f * gravity);
-       // }
+         //Crouch
+       /* if (Input.GetKeyDown("c"))
+        {
+           controller.height = 0.25f;
+        } else
+        {
+            controller.height = 2.0f;
+        }*/
 
         velocity.y += gravity * Time.deltaTime;
 
